@@ -2,22 +2,15 @@
 
 ## Onboarding Roadmap & Status Tracker
 
-A small onboarding dashboard. It needs no build step, package install, or backend.
+The selected manager preview is a self-contained HTML file with the Employee and Manager views, including the Completed / Outstanding / Coming Up Kanban board.
 
-## Download and run it
+## Download and open the app
 
-1. Open the [MangoAppTakeHome repository](https://github.com/Shri002/MangoAppTakeHome).
-2. Select **Code → Download ZIP**, then extract the archive.
-3. Open a terminal in the extracted folder.
-4. Start a local web server:
+1. Open [manager-preview.html](https://github.com/Shri002/MangoAppTakeHome/blob/main/manager-preview.html).
+2. Select **Download raw file** and save it as `manager-preview.html`.
+3. Open the saved HTML file in your browser. The board and app scripts are embedded in this file; no ZIP extraction or setup is required.
 
-   ```powershell
-   py -m http.server 8000
-   ```
-
-5. Open <http://localhost:8000/manager-preview.html> in your browser. This is the selected manager preview. Keep the terminal window open while using the app.
-
-If `py` is not available, install Python or use the VS Code Live Server extension, then open `manager-preview.html`.
+To download all editable source files, use **Code → Download ZIP** on the [repository page](https://github.com/Shri002/MangoAppTakeHome).
 
 ## Progress and data
 
@@ -25,7 +18,7 @@ This demo saves task completion and templates in the browser's local storage. Ea
 
 ## Files
 
-- `manager-preview.html` — selected dashboard entry point
-- `manager-preview.js` and `modal-preview.js` — scripts used by the preview
-- `index.html`, `manager.js`, and `modal.js` — alternate entry point and scripts
+- `manager-preview.html` — self-contained app to download and open
+- `modal-preview.js` and `manager-preview.js` — readable script sources also embedded in the preview
+- `manager.js` and `modal.js` — alternate app script files
 - `README.md` — these setup instructions
