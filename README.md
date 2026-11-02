@@ -8,16 +8,16 @@ A small onboarding dashboard. It needs no build step, package install, or backen
 
 1. Open the [MangoAppTakeHome repository](https://github.com/Shri002/MangoAppTakeHome).
 2. Select **Code → Download ZIP**, then extract the archive.
-3. Open a terminal in the extracted folder containing `index.html`.
+3. Open a terminal in the extracted folder.
 4. Start a local web server:
 
    ```powershell
    py -m http.server 8000
    ```
 
-5. Open <http://localhost:8000> in your browser. Keep the terminal window open while using the app.
+5. Open <http://localhost:8000/manager-preview.html> in your browser. This is the selected manager preview. Keep the terminal window open while using the app.
 
-If `py` is not available, install Python or use the VS Code Live Server extension.
+If `py` is not available, install Python or use the VS Code Live Server extension, then open `manager-preview.html`.
 
 ## Progress and data
 
@@ -25,9 +25,7 @@ This demo saves task completion and templates in the browser's local storage. Ea
 
 ## Files
 
-- `index.html` — dashboard markup, styles, and sample onboarding data
-- `modal.js` — task views, task details, completion, and local persistence
-- `manager.js` — manager dashboard, reusable templates, and assignments
-- `manager-preview.html` — the preview entry point, with matching preview script copies
-- `manager-preview.js` and `modal-preview.js` — preview copies of the manager and modal scripts
+- `manager-preview.html` — selected dashboard entry point
+- `manager-preview.js` and `modal-preview.js` — scripts used by the preview
+- `index.html`, `manager.js`, and `modal.js` — alternate entry point and scripts
 - `README.md` — these setup instructions
