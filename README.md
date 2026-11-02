@@ -28,4 +28,6 @@ This demo saves task completion and templates in the browser's local storage. Ea
 - `index.html` — dashboard markup, styles, and sample onboarding data
 - `modal.js` — task views, task details, completion, and local persistence
 - `manager.js` — manager dashboard, reusable templates, and assignments
+- `manager-preview.html` — the preview entry point, with matching preview script copies
+- `manager-preview.js` and `modal-preview.js` — preview copies of the manager and modal scripts
 - `README.md` — these setup instructions
